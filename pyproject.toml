@@ -1,0 +1,32 @@
+[project]
+name = "server_poetry"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nicolas Desdames",email = "n.desdames@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    
+    "camera (==1.3.0)",
+    "flask (==3.1.0)",
+    "opencv-python (==4.10.0.84)",
+    "flask-socketio (==5.5.1)",
+    "pillow (==11.1.0)",
+    "pyshine (==0.0.9)",
+    "flask_cors (==5.0.0)",
+    "imutils (==0.5.4)",
+    "cmake (==3.31.4)",
+    "dlib (==19.24.6)",
+    "sounddevice (==0.5.1)",
+    "keras (==3.8.0)",
+    "matplotlib (==3.10.0)",
+    "soundfile (==0.13.0)",
+    "tensorflow (==2.18.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
